@@ -14,6 +14,7 @@ export default function NavLinks(){
 
      return (
     <>
+    {/*@ts-ignore*/}
       {links.map((link) => {
         const LinkIcon = link.icon;
         return (
